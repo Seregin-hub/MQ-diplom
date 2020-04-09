@@ -237,12 +237,14 @@ h3 {
 }
 
 .img-footballer {
-    display: flex;
-    justify-content: end;
-    margin-bottom: -710px;
-    margin-top: -180px;
-    width: 60%;
-    margin-left: -200px;
+    display: block;
+    position: absolute;
+    right: 50%;
+    top: 990px;
+}
+
+.white-footballer {
+    margin-top: 20px;
 }
 
 .connection-title, .collaboration-title, .growth-title, .growth-title-dark-blue {
@@ -507,6 +509,7 @@ h3 {
     letter-spacing: 0.05em;
     font-weight: 700;  
     line-height: 1;
+    margin-top: 0px;
 }
 
 .show-everyone {
@@ -600,9 +603,8 @@ h3 {
     }
 
     .img-footballer {
-        width: 70%;
-        margin-bottom: -630px;
-        margin-top: -75px;
+        right: 56%;
+        top: 1060px;
     }
 
     .footballer-title {
@@ -611,7 +613,7 @@ h3 {
 
     .connection, .collaboration, .growth {
         width: 58%;
-        padding-right: 4.4%;
+        padding-right: 3.4%;
         padding-bottom: 40px;
         padding-top: 40px;
     }
@@ -634,6 +636,10 @@ h3 {
         margin-top: -130px;
         margin-left: auto;
         margin-right: 0;
+    }
+
+    .white-footballer {
+        margin-top: -13px;
     }
 
     .connection-basketballer, .collaboration-basketballer, .growth-basketballer {
@@ -786,16 +792,20 @@ h3 {
 
     .img-footballer, .img-basketballer {
         display: block;
+        position: inherit;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: -60px;
-        margin-top: 0;
         width: 192px;
+    }
+
+    .white-footballer {
+        margin-top: -60px;
     }
 
     .img-basketballer {
         width: 302px;
         margin-bottom: -23px;
+        margin-top: 0px;
     }
 
     .connection, .collaboration, .growth, .connection-basketballer, .collaboration-basketballer, .growth-basketballer {
