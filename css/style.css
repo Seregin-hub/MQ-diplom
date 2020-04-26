@@ -183,6 +183,11 @@ h3 {
     display: flex;
 }
 
+.download-app li {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
 .app {
     width: 310px;
     display: flex;
@@ -191,8 +196,6 @@ h3 {
     font-size: 14px;
     color: #ffffff;
     cursor: pointer;
-    margin-left: 25px;
-    margin-right: 25px;
     background-color: #5e42b0;
     border-radius: 50px;
 }
@@ -243,8 +246,9 @@ h3 {
     top: 990px;
 }
 
-.white-footballer {
+.footballer {
     margin-top: 20px;
+    padding: 0px;
 }
 
 .connection-title, .collaboration-title, .growth-title, .growth-title-dark-blue {
@@ -288,11 +292,7 @@ h3 {
 }
 
 .connection, .collaboration, .growth {
-    padding-bottom: 50px;
-    padding-top: 50px;
-    margin-left: auto;
-    width: 38%;
-    padding-right: 9.5%;
+    padding: 50px 10% 50px 52.5%;
 }
 
 .grey {
@@ -328,17 +328,21 @@ h3 {
     margin-left: 9.5%;
 }
 
-.connection-basketballer, .collaboration-basketballer, .growth-basketballer {
-    margin-right: auto;
-    width: calc(50% - 160px);
-    padding-left: 10%;
+.basketballer {
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
+.connection-basketballer, .collaboration-basketballer, .growth-basketballer {
+    padding: 50px 51% 50px 10%;
+}
+/*
 .connection-basketballer {
     padding-bottom: 55px;
     padding-top: 55px;
 }
-
+*/
 .collaboration-basketballer {
     padding-bottom: 90px;
     padding-top: 45px;
@@ -612,10 +616,7 @@ h3 {
     }
 
     .connection, .collaboration, .growth {
-        width: 58%;
-        padding-right: 3.4%;
-        padding-bottom: 40px;
-        padding-top: 40px;
+        padding: 40px 3.4% 40px 37.5%;
     }
     
     .connection-title::after, .collaboration-title::after, .growth-title::after, .growth-title-dark-blue::after {
@@ -809,11 +810,7 @@ h3 {
     }
 
     .connection, .collaboration, .growth, .connection-basketballer, .collaboration-basketballer, .growth-basketballer {
-        margin-left: 6%;
-        padding-top: 50px;
-        padding-bottom: 53px;
-        width: 87%;
-        padding-left: 0;
+        padding: 50px 7.5% 53px 7.5%;
     }
 
     .connection, .connection-basketballer {
